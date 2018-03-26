@@ -4,7 +4,7 @@ Weighted Factorization Machines
 This is an implementation of Weighted Factorization Machines (WFMs) with tensorflow based on [tffm](https://github.com/geffy/tffm).
 
 ## Documentation
-Weighted Factorization Machines (WFM) is an extension to [Factorization Machines](https://www.csie.ntu.edu.tw/~b97053/paper/Factorization%20Machines%20with%20libFM.pdf) where additional weight parameters are leaned for groups of features (e.g. users, items and cotext).
+Weighted Factorization Machines (WFM) is an extension to [Factorization Machines](https://www.csie.ntu.edu.tw/~b97053/paper/Factorization%20Machines%20with%20libFM.pdf) where additional weight parameters are learned for groups of features (e.g. users, items and context).
 
 This repository is an implementation of WFM with python and tensorflow. The implementation supports reading of multiple datasets, training and evalation.
 WFM can be used by its command line interface or by calling its API. Next section describes the usage of command line interface. This section will be completed with more details. For questions please contact: b DOT loni AT tudelf DOT nl.
